@@ -533,17 +533,17 @@ def load_comprehensive_data():
     """Load all e-commerce datasets"""
     datasets = {}
     file_paths = {
-        'customers': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/customers_dataset.csv',
-        'orders': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/orders_dataset.csv',
-        'order_items': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/order_items_dataset.csv',
-        'order_payments': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/order_payments_dataset.csv',
-        'order_reviews': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/order_reviews_dataset.csv',
-        'products': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/products_dataset.csv',
-        'sellers': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/sellers_dataset.csv',
-        'geolocation': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/geolocation_dataset.csv',
-        'category_translation': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/product_category_name_translation.csv',
-        'marketing_leads': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/marketing_qualified_leads_dataset.csv',
-        'closed_deals': 'C:/Users/nisma/OneDrive/Documents/Universitas Airlangga/Lomba/SSDC/E-Commerce/E-Commerce/Dashboard-E-Commerce/E-Commerce/closed_deals_dataset.csv'
+        'customers': 'E-Commerce/customers_dataset.csv',
+        'orders': 'E-Commerce/orders_dataset.csv',
+        'order_items': 'E-Commerce/order_items_dataset.csv',
+        'order_payments': 'E-Commerce/order_payments_dataset.csv',
+        'order_reviews': 'E-Commerce/order_reviews_dataset.csv',
+        'products': 'E-Commerce/products_dataset.csv',
+        'sellers': 'E-Commerce/sellers_dataset.csv',
+        'geolocation': 'E-Commerce/geolocation_dataset.csv',
+        'category_translation': 'E-Commerce/product_category_name_translation.csv',
+        'marketing_leads': 'E-Commerce/marketing_qualified_leads_dataset.csv',
+        'closed_deals': 'E-Commerce/closed_deals_dataset.csv'
     }
     
     try:
